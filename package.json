@@ -1,5 +1,5 @@
 {
-  "name": "next-form-generator",
+  "name": "next-dynamic-form-generator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@reduxjs/toolkit": "^1.8.3",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.5.1",
+    "nanoid": "^4.0.0",
     "next": "12.2.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^8.0.2",
+    "redux-thunk": "^2.4.1",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.7",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2"
+    "eslint-config-next": "12.2.2",
+    "postcss-import": "^14.1.0",
+    "postcss-nesting": "^10.1.10",
+    "tailwindcss": "^3.1.6",
+    "typescript": "^4.7.4"
   }
 }
